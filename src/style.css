@@ -4,9 +4,7 @@ body {
 }
 
 section {
-    height: 500px;
     background-color: white;
-    border: solid black 1px;
 }
 
 .hero {
@@ -18,8 +16,10 @@ section {
 
 
 footer {
-    height: 500px;
     background-color: black;
+    color: white;
+    text-align: center;
+    padding: 80px;
 }
 
 nav {
@@ -36,12 +36,16 @@ ul {
 }
 
 li {
-    /* width: 200px; */
     text-decoration: none;
 }
 
 h1 {
     font-size: 90px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 50px;
 }
 
 p {
@@ -99,4 +103,25 @@ p {
 .sub-section {
     display: flex;
     justify-content: space-around;
+    padding: 80px;
+    border: solid black 1px;
+}
+
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 80px;
+    border: solid black 1px;
+
+}
+
+.headshot {
+    width: 300px;
+    border-radius: 150px;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: left;
 }
