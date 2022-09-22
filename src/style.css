@@ -4,7 +4,8 @@ body {
 }
 
 section {
-    background-color: white;
+    background-color: #1c1d25;
+    color: white;
 }
 
 .hero {
@@ -14,11 +15,16 @@ section {
     font-size: 40px;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 
 footer {
-    background-color: black;
+    background-color: #1c1d25;
     color: white;
-    text-align: center;
+    text-align: left;
     padding: 80px;
 }
 
@@ -102,8 +108,8 @@ p {
 
 .sub-section {
     display: flex;
-    justify-content: space-around;
-    padding: 80px;
+    justify-content: space-between;
+    padding: 60px;
     border: solid black 1px;
 }
 
@@ -113,7 +119,6 @@ p {
     text-align: left;
     padding: 80px;
     border: solid black 1px;
-
 }
 
 .headshot {
