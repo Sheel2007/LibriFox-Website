@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -73,19 +77,19 @@ p {
 }
 
 .button {
-    width: 200px;
-    height: 55px;
-    border-radius: 30px;
-    background-color: coral;
+    width: 180px;
+    height: 45px;
+    border-radius: 20px;
+    background-color: #3994FF;
     text-align: center;
-    font-size: 30px;
+    font-size: 16px;
     font-weight: 300;
-    padding-top: 5px;
+    padding-top: 16px;
     margin-top: 20px;
 }
 
 .button:hover {
-    background-color: #ef744b;
+    background-color: #185fb0;
 }
 
 .button:active {
@@ -106,14 +110,14 @@ p {
     margin: 10px;
 }
 
-.sub-section {
+.about {
     display: flex;
     justify-content: space-between;
     padding: 60px;
     border: solid black 1px;
 }
 
-.sub-section-alternative {
+.mission {
     display: flex;
     flex-direction: column;
     text-align: left;
